@@ -1,0 +1,27 @@
+:root {
+    --font-header: 'Inter', sans-serif ;
+    --font-body: 'Roboto Condensed', sans-serif;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --link-color: #1a73e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 16px;       
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--font-header);
+    color: var(--text-color, #333);
+}
