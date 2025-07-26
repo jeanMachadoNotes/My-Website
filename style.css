@@ -1,9 +1,12 @@
 :root {
     --font-header: 'Roboto Condensed', sans-serif  ;
     --font-body: 'Inter', sans-serif;
-    --background-color: #f4f4f4;
-    --text-color: #333;
+    --background-color: hsl(0, 0%, 98%);
+    --text-color: #hsl(0, 0%, 20%);
     --link-color: #1a73e8;
+    --accent-color: hsl(290, 90%, 65%);
+    --hover-color: hsl(45, 100%, 50%);
+
 }
 
 * {
@@ -37,4 +40,23 @@ h2 {
 
 section {
     margin-bottom: 20px;
+}
+
+.headshot img {
+    height: autp;
+    width: 20rem;
+    @media screen and (max-width:450px) {
+        height: auto;
+        width: 100%;
+    }
+}
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    @media screen and (max-width:450px) {
+        flex-direction: column;
+    }
 }
